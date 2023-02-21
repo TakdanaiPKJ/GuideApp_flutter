@@ -36,6 +36,20 @@ class _UserMapState extends State<UserMap> {
               'id': 'mapbox.mapbox-streets-v8'
             },
           ),
+          MarkerLayer(
+            markers: [
+              Marker(
+                  point: LatLng(16.821130, 100.262551),
+                  builder: (context) => IconButton(
+                        onPressed: () {
+                          debugPrint('a');
+                        },
+                        icon: const Icon(Icons.location_on),
+                        color: Colors.red,
+                        iconSize: 45.0,
+                      ))
+            ],
+          )
         ],
       ),
     );
