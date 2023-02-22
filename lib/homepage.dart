@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/userpage/userhome.dart';
 import 'package:flutter_application_1/userpage/usermap.dart';
-import 'package:flutter_application_1/userpage/userplan.dart';
+import 'package:flutter_application_1/userpage/userlist.dart';
 import 'package:flutter_application_1/userpage/usersetting.dart';
 
 class HomePage extends StatefulWidget {
@@ -15,7 +15,7 @@ int _currentIndex = 0;
 List<Widget> navpage = const [
   UserHome(),
   UserMap(),
-  UserPlan(),
+  UserList(),
   UserSetting(),
 ];
 
@@ -38,7 +38,7 @@ class _HomePageState extends State<HomePage> {
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(icon: Icon(Icons.map_sharp), label: 'Map'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.book_rounded), label: 'Plan'),
+              icon: Icon(Icons.book_rounded), label: 'List'),
           BottomNavigationBarItem(
               icon: Icon(Icons.settings), label: 'Settings'),
         ],
