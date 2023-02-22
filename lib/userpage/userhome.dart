@@ -15,7 +15,7 @@ class UserHome extends StatelessWidget {
             flexibleSpace: FlexibleSpaceBar(
               //background: Image.asset('Name'), Change from pink container to picture
               background: Container(color: Colors.pink),
-              title: const Text('P H I T S A N U L O K'),
+              title: const Text('G U I D E'),
               centerTitle: true,
             ),
             expandedHeight: 300,
