@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/detailpage/watyaipage.dart';
 import 'package:flutter_application_1/homepage.dart';
 import 'package:flutter_application_1/userpage/userhome.dart';
 import 'package:flutter_application_1/userpage/usermap.dart';
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
         'map': (context) => const UserMap(),
         'plan': (context) => const UserList(),
         'setting': (context) => const UserSetting(),
+        'watyai': (context) => const Watyaipage(),
       },
     );
   }

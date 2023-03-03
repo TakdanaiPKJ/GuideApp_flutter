@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/userpage/userhome.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
 
@@ -43,7 +42,7 @@ class _UserMapState extends State<UserMap> {
                   point: LatLng(16.821130, 100.262551),
                   builder: (context) => IconButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, 'home');
+                          Navigator.pushNamed(context, 'watyai');
                         },
                         icon: const Icon(Icons.location_on),
                         color: Colors.red,
